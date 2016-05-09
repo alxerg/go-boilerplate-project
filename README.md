@@ -2,13 +2,13 @@
 
 The boilerplate of Golang project.
 Simplest out of the box
-- continuous testing ( [reflex](github.com/cespare/reflex) )
-- dependency management ( [Gb](https://github.com/cespare/reflex) )
+- continuous testing ( [reflex](https://github.com/cespare/reflex) )
+- dependency management ( [Gb](https://github.com/constabulary/gb) )
 
 With Golang properly installed
 ```
 git clone 
-make dev-deps
+make setup
 make build
 make re-test
 ```
